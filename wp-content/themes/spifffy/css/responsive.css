@@ -1,0 +1,1619 @@
+@media screen and (max-width : 1200px) {
+	/*22- Aug */
+	.customize-plan-box li {
+		margin: 0 6%;
+	}
+	.menu-container .menu > li {
+		margin-left: 7px;
+	}
+	.price {
+		font-size: 36px;
+	}
+	.customize-plan-box input[type="range"] {	   
+	    max-width: 100%;	    
+	    width: 100%;
+	}
+	.slider-title {
+	    font-size: 46px;	
+	}
+	.container {
+    	max-width: 100%;
+	}	
+	#slider {
+		padding-bottom: 100px;
+	}
+	.slider-title {
+		line-height: normal;
+		font-size: 46px;
+	}
+	#boxes #dialog {
+		bottom: 0 !important;
+	    left: 0 !important;
+	    height: auto;
+	    margin: auto!important;
+	    max-height: 85%;
+	    max-width: 95%!important;
+	    overflow-y: scroll;
+	    right: 0!important;
+	    top: 0!important;
+	    width: auto;   
+	}
+	.owl-theme .owl-controls .owl-buttons div {
+		border-radius :0 !important;
+		opacity: 1 !important;
+	}
+	#partner-service .service-box {
+		height: auto;
+	}
+}
+@media screen and (min-width : 1200px) {
+	.container {
+    	max-width: 100%;
+	}
+	.testimonial-desc {
+	    margin: 0 auto;
+	    max-width: 96%;
+	}
+}
+
+@media screen and (min-width : 1025px) and (max-width : 1199px){	
+	/*
+**Partner Page css-----------*/
+	.service-box.signupnow h2 {
+		padding-top: 0;
+	}
+	#service-box-section .sign-up-right {
+    	margin-top: 40px;
+	}
+	.pget-started-section span {
+		padding: 0
+	}
+	#referral-partner #contact-us{
+		padding: 0 50px;
+	}
+	#contact-us h2 {
+		margin-bottom: 15px;
+	}
+	#partner-service {
+		padding: 60px 0;
+	}
+	#service-box-section {
+		margin-top: 45px;
+	}
+	.pget-started-section span {
+		display: block;
+	}
+	.pget-started-left {
+	    float: none;
+	    margin-bottom: 25px;
+	    text-align: center;
+	    width: 100%;
+	}
+	.pget-started-right {
+	    float: none;
+	    margin-bottom: 20px;
+	    text-align: center;
+	    width: 100%;
+	}
+	#referral-partner {
+		padding-top: 80px;
+	}
+	#partner-service .service-box {	    
+	    display: block;
+	    float: none;	    
+	    margin: 0 auto 25px;
+	    max-width: 370px;	    
+	}
+	#partner-box-section {
+    	margin-top: 50px;
+	}	
+
+	.sign-up {
+	    float: left;	    
+	    width: 46%;
+	}
+	.subscribe-email {
+		max-width: 100%;
+	}
+	.subscribemail-right {
+	    float: left;
+	    width: 50%;
+	}
+	.wearestiffy-title h2 {
+		font-size: 24px;
+	}
+	.subscribe-email {
+		max-width: 100%;
+	}	
+	#view-paln .cleaning-box,
+	.customize-plan-box {
+		width: 370px;
+		margin: 15px;
+	}
+	#view-paln .cleaning-box:last-child {
+    	margin-right: 15px;
+	}
+	.col-lg-6.col-md-6.customize-plan-box:first-child {
+		margin-bottom: 45px;
+	}
+	#footer-area #top-footer .textwidget > p {
+		width: auto;
+	}
+	#bottom-footer {
+		padding: 30px 0;
+		line-height: normal;
+	}
+	.testimonial-desc {
+	    margin: 0 auto;
+	    max-width: 94%;
+	}	
+	.col-lg-3.col-sm-3.works-box {
+	    float: none;
+	    margin: 30px auto;
+	    max-width: 90%;
+	    width: auto;
+	}
+	#wearestiffy,.main-content,
+	.customize-plan-steps,
+	#Cleaning {
+		height: auto;
+		background-size: cover;
+	}
+	#Cleaning .cleaning-box:first-child {
+	    margin-bottom: 35px;
+	    margin-right: 0;
+	}
+	#Cleaning .cleaning-box {
+		 height: auto;
+    	max-height: 100%;
+	}
+	#customize-plan-tab {
+		padding-bottom: 40px;
+	}
+	#bottom-footer {
+		height: auto;
+		line-height: normal;
+	}
+	#testimonial-area .testimonials-item {    	
+    	padding: 0 25px;
+    	width: 83%;
+	}
+	#testimonial-area .owl-prev {
+		left: 0;
+	}
+	#testimonial-area .owl-next {
+		right: -3%;
+	}
+	.testimonial-desc {
+	    margin: 0 auto;
+	    max-width: 96%;
+	}
+	.testimoial-img {	    
+	    padding-left: 30px;
+	}
+	.cleaning-section li {
+		width: 30%;
+	}
+}
+@media screen and (min-width : 768px) and (max-width : 1024px){
+/*
+**Partner Page css-----------*/	
+	.mean-container .mean-bar {
+	    width: auto;
+	}
+	.service-box.signupnow h2 {
+		padding-top: 0;
+	}
+	#service-box-section .sign-up-right {
+    	margin-top: 40px;
+	}
+	#referral-partner {
+		padding-top: 80px;
+	}
+	#partner-box-section {
+    	margin-top: 50px;
+	} 	
+	.pget-started-section span {
+		padding: 0
+	}
+	#referral-partner #contact-us{
+		padding: 0 50px;
+	}
+	#contact-us h2 {
+		margin-bottom: 15px;
+	}
+	#partner-service {
+		padding: 60px 0;
+	}
+	#service-box-section {
+		margin-top: 45px;
+	}
+	.pget-started-section span {
+		display: block;
+	}
+	.pget-started-left {
+	    float: none;
+	    margin-bottom: 25px;
+	    text-align: center;
+	    width: 100%;
+	}
+	.pget-started-right {
+	    float: none;
+	    margin-bottom: 20px;
+	    text-align: center;
+	    width: 100%;
+	}
+	#partner-service .service-box {	    
+	    display: block;
+	    float: none;	    
+	    margin: 0 auto 25px;
+	    max-width: 370px;	    
+	}
+	#slider {
+		padding: 50px 0 100px;
+	}	
+	.slider_btn {		
+	    margin-bottom: 40px;
+	    margin-top: 38px;
+	}
+	#inner_slider {
+		height: 250px;
+	}	
+	#subscribe-submit {
+	    position: relative;
+	}
+	.sign-up {	    
+	    margin-bottom: 19px;	    
+	    width: 100%;
+	}	
+	.wearestiffy-title h2 {
+		font-size: 20px;
+	    line-height: normal;
+	    padding: 0 52px;		
+	}	
+	/*
+	*****POP Up Box Css
+	*/
+	
+	.popup-subscribe #popupemail {	   
+	    height: 40px;	    
+	    width: 250px;
+	}
+	.popup-subscribe {
+    	margin-top: 40px;	
+	}
+	#boxes .window {	    
+	    padding: 60px 100px 90px;
+	}
+	.bottom-section {
+		padding: 45px;
+		height: auto;
+	}
+	#subscribe-submit {
+    	top: 2px;
+	}
+	#footer-area #top-footer .share-text p {	   
+	    display: inline-block;	    
+	    margin-bottom: 15px;
+	    text-align: center;
+	}
+	.subscribe-email {
+	    position: relative;	    
+	}
+	#footer-social-links.social-links .list-none.clearfix {
+		top: 0;
+		width: 200px;
+	}
+	#footer-social-links.social-links .list-none.clearfix li{
+		margin: 0 5px;	
+	}
+
+	.testimoial-img {	    
+	    padding-left: 30px;
+	}
+	#testimonial-area .testimonials-item {    	
+    	padding: 25px 45px 20px;
+	}
+	.testimonial-desc {
+	    margin: 0 auto;
+	    max-width: 96%;
+	}
+	#testimonial-area .owl-prev {
+		left: 0;
+	}
+	#testimonial-area .owl-next {
+		right: -3%;
+	}
+	#bottom-footer {
+	    height: auto;
+	    line-height: normal;
+	    padding: 40px 0;
+	}
+	#footer-menu.menu-container .menu li{
+		height: auto;
+		line-height: normal;
+	}
+	#wearestiffy,.main-content,
+	.customize-plan-steps {
+		height: auto;
+		background-size: cover;
+	}
+	.col-lg-3.col-sm-3.works-box {
+	    float: none;
+	    margin: 30px auto;
+	    max-width: 90%;
+	    width: auto;
+	}
+	#view-paln .cleaning-box {
+	    display: block;
+	    margin: 0 auto 30px;
+	    max-width: 370px;
+	    width: auto;
+	}
+	#view-paln .cleaning-box {
+		width: auto;
+	}
+	#wearestiffy {
+		height: auto;
+	}	
+	.main-content {	   
+	    height: auto;
+	    padding: 15px 0 30px;
+	}
+	#Cleaning .cleaning-box:first-child {
+		margin: 0 auto 30px;
+	}
+	#Cleaning .cleaning-box {	   
+	    float: none;
+	    height: auto;
+	    margin: 0 auto;
+	    padding: 25px 45px 42px;
+	    width: 90%;
+	}
+	.how-it-works h2 {
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+	#customize-plan-steps .view-plan-title {
+    	margin-bottom: 10px;
+	}
+	.like-us-section {
+	    max-width: 90%;
+	    padding: 40px 25px 60px;
+	}
+	#Cleaning {
+		background-size: cover;
+		height: auto;
+	}	
+	.col-md-6.customize-box {
+		padding-top: 0;
+	}
+	.customizetheplan::after {	  
+	    height: 58%;
+	    left: 15px;	   
+	    top: 14px;
+	}	
+	.mean-container .mean-bar {
+		width: auto;
+	}
+	.customize-plan-box {	   
+	    display: block;
+	    float: none;	   
+	    margin: 0 auto 30px;	   
+	}	
+	.customize-plan-box:last-child,
+	#view-paln .cleaning-box:last-child {
+    	margin: 0 auto;
+	}
+	#customize-plan-tab {
+		padding-bottom: 25px;
+	}	
+	.share-text {
+		width: 100%;
+	}
+	#subscribe_popup {
+		max-width: 90%;
+		width: 90%;
+		padding: 0 100px;
+	}
+	#contact-us {
+		padding: 50px;
+	}
+	.like-us-section {
+		padding: 40px 25px;
+	}
+}
+@media screen and (max-width : 992px) {
+	.customizetheplan {
+		font-size: 30px;
+		line-height: 36px;
+	}	
+	.like-us-timer {
+	    margin: 35px auto 0;
+	    max-width: 280px;	
+	}
+	.customize-plan-steps {
+		padding-top: 45px;
+	}
+	#laundry-cleaning {	    
+	    padding: 45px 0 25px;
+	}
+	#laundry-cleaning .view-plan-title {
+		margin-bottom: 35px;
+	}
+	.like-us-timer .wpcf7-form-control.wpcf7-submit.book-now-btn {
+	    left: 0;
+	    position: relative;
+	}
+}
+@media screen and (min-width : 768px) and (max-width : 900px) {
+	#inner_slider {
+		height: auto;
+		padding-bottom: 50px;
+	}
+	#partner-box-section .r-partner {
+	    display: block;
+	    width: 100%;
+	} 
+	#contact-us p {	  
+	    margin: 0 auto 30px;
+	    max-width: 480px;
+	}
+	.partner-box {	  
+	    margin: 0 auto 35px;
+	    max-width: 570px;
+	    padding: 60px 45px;
+	    width: 100%;
+	}
+	#referral-partner {
+		padding: 60px 0;
+	}
+	#partner-box-section {
+    	margin-top: 40px;
+	}
+	/*
+	** Mobile Slider CSs
+	*/	
+	#slider {
+		padding-top: 80px;
+	}
+	.cleaning-section a {
+		display: block;
+	}	
+	#footer-social-links {
+		text-align: center;
+	}
+	.share-icons.clearfix {
+		float: none;
+	}
+	#bottom-footer {
+	    height: auto;
+	    line-height: normal;
+	    padding: 40px 0;
+	}
+	#footer-menu.menu-container .menu li {
+		height: auto;
+		line-height: normal;
+	}
+	#subscribe-now,
+	#social-section {
+	    text-align: center;
+	    width: 100%;
+	    margin-bottom: 25px;
+	}
+	#sign-up-form > p {
+		display: inline-block;
+	}
+	#footer-area #top-footer {
+		padding: 40px 0 15px;
+		height: auto;
+	}	
+	.testimoial-img {
+	    padding-left: 0px;
+	}
+	#customize-plan-tab {
+	    padding: 0;
+	}
+	.customizetabs > li {
+	    display: block;
+	    margin: 0 auto 25px;
+	    max-width: 300px;
+	}
+	.customizetabs > li::after {
+    	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	}
+	.testimoial-img {
+	    display: block;
+	    float: none;
+	    text-align: center;
+	    width: 100%;
+	}
+	#testimonial-area .testimonials-item {
+	    float: left;
+	    padding: 25px 45px 0;
+	    text-align: center;
+	    width: 100%;
+	}	
+	.share-text {
+		width: 100%;
+	}
+	#subscribe_popup {
+		max-width: 90%;
+		width: 90%;
+		padding: 0 80px;
+	}
+	#contact-us {
+		padding: 50px;
+	}
+	#contact-us h2 {	  
+	    font-size: 40px;
+	    margin: 0 0 20px;
+	}	
+}
+@media screen and (max-width : 650px) {
+	/*
+	**Partner Page css-----------*/
+	ul.laundry li {
+		width: 100%;
+	}
+	.laundry.clearfix {
+	    margin: 0 auto;
+	    max-width: 370px;
+	}
+	#customize-plan-steps .view-plan-title {
+    	margin-bottom: 10px;
+	}
+	#testimonial-area .testimoial-img img {
+		max-width: 150px;
+	}
+	.wpcf7-form-control.wpcf7-submit.book-now-btn {
+		position: relative;
+		left: 0;
+		width: 100%;
+	}
+	.like-us-timer {
+	    margin: 20px auto;
+	    max-width: 280px;
+	} 
+	.cleaning-box-upper > h5 {
+		font-size: 24px;
+	}
+	.price {
+	    font-size: 28px;
+	    margin: 35px 0;
+	}
+	.cleaning-box sup {
+		font-size: 24px;
+	}
+
+	.testimonial-inner > h2 {
+		margin-bottom: 20px;
+	}
+	.testimonial-desc {
+		padding-top: 30px;
+	}
+	.service-box.signupnow h2 {
+		padding-top: 0;
+	}
+	#service-box-section .sign-up-right {
+    	margin-top: 40px;
+	}
+	#referral-partner #contact-us h2 {
+		font-size: 36px;
+	}
+	.partner-service .section-header.text-center h2, .referral-partner .section-header.text-center h2 {
+		font-size: 28px;
+	}
+	#contact-us p {	  
+	    margin: 0 auto 30px;
+	    max-width: 480px;
+	}
+	.partner-box {	  
+	    margin: 0 auto 35px;
+	    max-width: 570px;
+	    padding: 60px 45px;
+	    width: 100%;
+	}
+	#referral-partner {
+		padding: 60px 0;
+	}
+	#partner-box-section {
+    	margin-top: 40px;
+	}
+	#referral-partner #contact-us{
+		padding: 0 50px;
+	}
+	#contact-us h2 {
+		margin-bottom: 15px;
+	}
+	#partner-service {
+		padding: 60px 0;
+	}
+	#service-box-section {
+		margin-top: 45px;
+	}
+	.pget-started-section span {
+		display: block;
+	}
+	.pget-started-left {
+	    float: none;
+	    margin-bottom: 20px;
+	    text-align: center;
+	    width: 100%;
+	}
+	.pget-started-right {
+	    float: none;
+	    margin-bottom: 20px;
+	    text-align: center;
+	    width: 100%;
+	}
+	#partner-service .service-box {	    
+	    display: block;
+	    float: none;	    
+	    margin: 0 auto 25px;
+	    max-width: 370px;	    
+	}
+
+
+	#subscribe_popup {
+		max-width: 90%;
+		width: 90%;
+		padding: 0 60px;
+	}
+	#contact-us h2 {	  
+	    font-size: 36px;
+	    margin: 0 0 15px;
+	}
+	#contact-us {
+		padding: 50px;
+	}	
+	#inner_slider {
+		padding-bottom: 0;
+		width: 90%;
+	}
+	#slider {
+		padding-top: 60px;
+	}
+	.current-date {
+		display: none;
+	}
+	.slider-title {
+		padding-bottom: 35px;
+	}
+	#mobile-view .slide-item img {
+		max-width: 150px;
+	}
+	#slider .slider_btn {
+		margin-top: 15px;
+		margin-bottom: 40px;
+	}
+	.cleaning-section a {
+		font-size: 14px;
+	}
+	.slider_btn {	  
+	    font-size: 15px;
+	    height: 44px;
+	    line-height: 46px;
+	}
+
+
+}
+@media screen and (min-width : 500px) and (max-width : 767px){
+	/*
+	**Partner Page css-----------*/
+	ul.laundry li {
+		width: 100%;
+	}
+	.laundry.clearfix {
+	    margin: 0 auto;
+	    max-width: 370px;
+	}	
+	#customize-plan-steps .view-plan-title {
+    	margin-bottom: 10px;
+	} 	
+	#testimonial-area .testimoial-img img {
+		max-width: 150px;
+	}
+	.wpcf7-form-control.wpcf7-submit.book-now-btn {
+		position: relative;
+		left: 0;
+		width: 100%;
+	}	
+	.like-us-timer {
+	    margin: 20px auto;
+	    max-width: 280px;
+	} 
+	#inner_slider {
+		height: 123px;
+	}
+	.service-box.signupnow h2 {
+		padding-top: 0;
+	}
+	#service-box-section .sign-up-right {
+    	margin-top: 40px;
+	}
+	#contact-us p {	  
+	    margin: 0 auto 30px;
+	    max-width: 480px;
+	}
+	.partner-box {	  
+	    margin: 0 auto 35px;
+	    max-width: 570px;
+	    padding: 60px 45px;
+	    width: 100%;
+	}
+	#referral-partner {
+		padding: 60px 0;
+	}
+	#partner-box-section {
+    	margin-top: 40px;
+	}
+	#referral-partner #contact-us{
+		padding: 0 50px;
+	}
+	#contact-us h2 {
+		margin-bottom: 15px;
+	}
+	#partner-service {
+		padding: 60px 0;
+	}
+	#service-box-section {
+		margin-top: 45px;
+	}
+	.pget-started-section span {
+		display: block;
+	}
+	.pget-started-left {
+	    float: none;
+	    margin-bottom: 20px;
+	    text-align: center;
+	    width: 100%;
+	}
+	.pget-started-right {
+	    float: none;
+	    margin-bottom: 20px;
+	    text-align: center;
+	    width: 100%;
+	}
+	#partner-service .service-box {	    
+	    display: block;
+	    float: none;	    
+	    margin: 0 auto 25px;
+	    max-width: 370px;	    
+	}
+
+	#subscribe_popup {
+		max-width: 90%;
+		width: 90%;
+		padding: 0 60px;
+	}
+	#contact-us h2 {	  
+	    font-size: 36px;
+	    margin: 0 0 15px;
+	}
+	#contact-us {
+		padding: 50px;
+	}	
+	#slider {
+		padding: 50px 0 100px;
+	}	
+	/*
+	** Mobile Slider CSs
+	*/
+	#mobile-view {
+    	display: block;
+	}
+	#mobile-view .owl-controls {
+		bottom: 50%;
+	}
+	#mobile-slider {
+		position: relative;
+	}
+	#mobile-slider .owl-pagination {
+    	display: none;
+	}
+	#mobile-slider .owl-prev {
+	    background: rgba(0, 0, 0, 0) url("../images/back.png") no-repeat scroll 0 0;
+	    color: transparent;
+	    height: 35px;	   
+	    width: 25px;
+	    left: 0;
+	    position: absolute;
+	}
+	#mobile-slider .owl-next {
+		background: rgba(0, 0, 0, 0) url("../images/s_next.png") no-repeat scroll 0 0;
+	    color: transparent;
+	    height: 35px;	   
+	    width: 25px;
+		right: 0;
+	    position: absolute;
+	}	
+	#mobile-view {
+    	display: block;
+	}
+	.cleaning-section li {
+		width: auto;
+	}
+	.cleaning-section a {
+		display: block;
+	}
+	#desktop-view {
+		display: none;
+	}
+  #footer-social-links.social-links .list-none.clearfix{
+  	top:0px;
+  }
+	#subscribe-submit {
+    	top: 3px;
+	}
+	#footer-area #top-footer .share-text p {	   
+	    display: inline-block;	    
+	    margin-bottom: 15px;
+	    text-align: center;
+	}
+	#subscribe-submit {
+	    position: relative;
+	}
+	.sign-up {
+		 margin-bottom: 19px;
+		width: 100%;
+	}
+	.container.wearestiffy_desc {
+    	padding: 30px 30px 0;
+	}	
+	.wearestiffy-title h2 {
+		font-size: 16px;
+		line-height: normal;
+	}
+	/*
+	*****POP Up Box Css
+	*/	
+	.popup-subscribe #popupemail {
+	    margin-bottom: 15px;
+    	width: 330px;
+	}
+	#popupsubscribe {
+		width: 200px;
+	}
+	.bottom-section > h3 {	    
+	    font-size: 27px;	    
+	    margin: 0 0 15px;
+	}
+	.popup-subscribe {
+    	margin-top: 40px;	
+	}
+	#boxes .window {	    
+	    padding: 30px 50px 50px;
+	}
+	.bottom-section {
+		padding: 45px 30px;
+		height: auto;
+	}
+	.top-section > p {
+		font-size: 24px;
+	}
+	.top-section span {
+		font-size: 46px;
+	}
+
+
+	#footer-social-links {
+		text-align: center;
+	}
+	.share-icons.clearfix {
+		float: none;
+	}
+	#subscribe-now ,
+	#social-section {
+		text-align: center;
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	#footer-area #top-footer {
+		padding: 40px 0 15px;
+		height: auto;
+	}
+	.subscribe-email {
+	    max-width: 30%;
+	    position: relative;	    
+	}
+	#bottom-footer {
+	    height: auto;
+	    line-height: normal;
+	    padding: 30px 0;
+	}
+	#footer-menu.menu-container .menu li {
+		height: auto;
+		line-height: normal;
+	}
+	.testimoial-img {
+	    display: block;
+	    float: none;
+	    text-align: center;
+	    width: 100%;
+	}
+	#testimonial-area .testimonials-item {
+	    float: left;
+	    padding: 15px 60px;
+	    text-align: center;
+	    width: 100%;
+	}	
+	.cleaning-section {
+    	display: none;
+	}	
+	#wearestiffy,.main-content,
+	.customize-plan-steps {
+		height: auto;
+		background-size: cover;
+	}
+	.col-lg-3.col-sm-3.works-box {
+	    float: none;
+	    margin: 30px auto;
+	    max-width: 90%;
+	    width: auto;
+	}
+	#view-paln .cleaning-box {
+		width: auto;
+	}
+	#wearestiffy {
+		height: auto;
+	}
+	.slider-title {
+	    font-size: 40px;
+	    padding: 0;
+	    width: 80%;
+	}	
+	.main-content {	   
+	    height: auto;
+	    padding: 15px 0 30px;
+	}
+	#Cleaning .cleaning-box:first-child {
+		margin: 0 auto 30px;
+	}
+	#Cleaning .cleaning-box {	   
+	    float: none;
+	    height: auto;
+	    margin: 0 auto;
+	    max-height: 100%;
+	    padding: 25px 45px 45px;
+	    width: 90%;
+	}
+	#Cleaning {
+		background-size: cover;
+		height: auto;
+	}	
+	.col-md-6.customize-box {
+		text-align: center;
+		padding-top: 0;
+	}
+	.customizetheplan::after {
+		content: none;
+	}
+	.customizetheplan-btn {
+    	margin-bottom: 50px;
+	}
+	.customizetheplan {
+	    font-size: 26px;
+	    line-height: 36px;
+	    margin-bottom: 30px;
+	}
+	.view-plan-title {
+		margin-bottom: 40px;
+	}
+	.customize-plan-box {	   
+	    display: block;
+	    float: none;	   
+	    margin: 0 auto 30px;	   
+	}
+	#view-paln .cleaning-box {
+	    display: block;
+	    margin: 0 auto 30px;
+	    max-width: 370px;
+	    width: 100%;
+	}
+	.customize-plan-box:last-child,
+	#view-paln .cleaning-box:last-child {
+    	margin: 0 auto;
+	}
+	.mean-container .mean-bar {
+		width: auto;
+	}
+	.customizetabs > li {	  
+	    display: block;
+	    margin: 0 auto 25px;
+	    max-width: 300px;
+	}
+	.customizetabs > li::after {
+		background: none;
+	}
+	#customize-plan-tab {
+		padding: 0;
+	}	
+	.customizetheplan-btn {	  
+	    font-size: 17px;	    
+	    height: 50px;
+	    letter-spacing: 2px;
+	    line-height: 50px;
+	}
+	.customize-plan-box {
+		max-width: 100%;
+    	width: 480px;
+	}
+	.customize-plan-box input[type="range"] {
+		width: 90%;
+	}
+	.viewplantabs > li {	    
+	    display: block;
+	    height: 42px;
+	    line-height: 40px;
+	    margin: 0 auto 15px;
+	    max-width: 300px;	    
+	}
+	.how-it-works {
+    	padding: 50px 0;
+	}
+	.how-it-works h2 {
+		margin-bottom: 15px;
+	}
+	.view-plan-header.text-center > p,
+	.testimonial-inner.text-center > p {
+		padding: 15px;
+	}
+	.testimonial {
+    	padding: 40px 0 50px;
+	}
+	.customize-plan-steps {
+		padding: 50px 0;
+	}
+	#testimonial-area .owl-prev {
+		left: 0;
+	}
+	#testimonial-area .owl-next {
+		right: 0px;
+	}
+	.share-text {
+		width: 100%;
+	}
+	.like-us-recuring {
+    	padding: 25px 0 0;
+	}	
+}
+@media screen and (min-width : 310px) and (max-width : 499px){	
+	.like-us-section {
+		padding: 20px 15px;
+	}
+	.like-us-recuring {
+    	padding: 25px 0 0;
+	}
+	.recuring-email {
+		width: 250px;
+		float: none;
+	}
+	.like-us-calender {
+    	overflow: scroll;
+	}
+	.like-us-section {
+		width: 90%;
+	}
+	.like-us-recuring #like-us-submit {
+		display: block;
+	    float: none;	    
+	    margin-top: 0;
+	    position: static;
+	    max-width: 100%;
+	    width: 250px;
+	}
+	#slider {
+	    background-size: cover;
+	    height: 250px;
+	    padding-top: 40px;
+	}
+	#inner_slider {
+		height: auto;		
+	}
+	.slider-title {
+	    font-size: 28px;
+	    letter-spacing: 0;
+	    padding: 0 40px;
+	    width: 100%;
+	}
+
+	/*
+**Partner Page CSS
+	*/
+	a.sign-up-right {	 
+	    font-size: 18px;
+	    height: 50px;
+	    line-height: 50px;
+	    width: 224px;
+	}	
+	#referral-partner #contact-us {
+    	padding: 0 15px;
+	}
+	.partner-box {
+		padding: 30px 20px;
+	}
+	#referral-partner #contact-us{
+		padding: 15px 20px;
+	}
+	#contact-us h2 {
+		margin-bottom: 15px;
+	}
+	#partner-service {
+		padding: 60px 0;
+	}
+	#service-box-section {
+		margin-top: 45px;
+	}
+	.pget-started-section span {
+		display: block;
+	}
+	#partner-service .service-box {
+	    display: block;
+	    float: none;
+	    margin: 0 auto 25px;
+	    height: auto;
+	    max-width: 100%;
+	    width: 300px;
+	}
+	.partner-box h3 {	    
+	    font-size: 20px;
+	    line-height: normal;	    
+	    padding: 0 0 10px;
+	}
+	#partner-box-section {
+		margin-top: 25px;
+	}
+
+	#contact-us {
+    	padding: 30px;
+	}
+	.customize-plan-box li {
+		margin: 0 5%;
+	}
+
+	/*
+	** Mobile Slider CSs
+	*/
+	
+	#slider {
+		padding-top: 40px;
+	}
+	#mobile-view {
+    	display: block;
+	}
+	#mobile-view .owl-controls {
+		bottom: 50%;
+	}
+	#mobile-slider {
+		position: relative;
+	}
+	#mobile-slider .owl-pagination {
+    	display: none;
+	}
+	#mobile-slider .owl-prev {
+	    background: rgba(0, 0, 0, 0) url("../images/back.png") no-repeat scroll 0 0;
+	    color: transparent;
+	    height: 35px;	   
+	    width: 25px;
+	    left: 0;
+	    position: absolute;
+	}
+	#mobile-slider .owl-next {
+		background: rgba(0, 0, 0, 0) url("../images/s_next.png") no-repeat scroll 0 0;
+	    color: transparent;
+	    height: 35px;	   
+	    width: 25px;
+		right: 0;
+	    position: absolute;
+	}	
+	#mobile-view {
+    	display: block;
+	}
+	.cleaning-section li {
+		width: auto;
+	}
+	.cleaning-section a {
+		display: block;
+	}
+	#desktop-view {
+		display: none;
+	}
+	 #footer-social-links.social-links .list-none.clearfix{
+	  top:0px;
+	}
+	#subscribe-submit {
+    	top: 2px;
+	}
+	#footer-area #top-footer .share-text p {	   
+	    display: inline-block;	    
+	    margin-bottom: 15px;
+	    text-align: center;
+	}
+	#subscribe-submit {
+	    position: relative;
+	}
+	.sign-up {
+		 margin-bottom: 19px;
+		width: 100%;
+	}
+	.share-text {
+		width: 100%;
+	}
+
+	.wearestiffy-title h2 {
+		font-size: 16px;
+		line-height: 24px;
+	}	
+
+	/*
+	*****POP Up Box Css
+	*/	
+	.popup-subscribe #popupemail {
+	    margin-bottom: 15px;
+    	width: 100%;
+	}
+	#popupsubscribe {
+		margin: 0 auto;
+	    max-width: 100%;
+	    width: 100%;
+	}
+	.bottom-section > h3 {
+	    font-size: 22px;
+	    font-weight: 400;
+	    margin: 0 0 15px;
+	}
+	.popup-subscribe {
+    	margin-top: 25px;	
+	}
+	#boxes .window {	    
+	    padding: 20px;
+	}
+	.bottom-section {
+		padding: 25px 25px 10px;
+		height: auto;
+	}
+	.top-section > p {
+		font-size: 22px;
+	}
+	.top-section span {
+		font-size: 30px;
+	}
+	.bottom-section > p {	   
+	    font-size: 14px;	    
+	    letter-spacing: 1px;
+	    line-height: 28px;
+	}
+
+
+	input[type="submit"] {	   
+	    border-radius: 6px;	   
+	    display: block;	  
+	    margin: 10px auto 0;	    
+	    width: 160px;
+	}
+	#sign-up-form {
+		max-height: 100%;
+	}
+	.sign-up {
+	    display: block;	   
+	    letter-spacing: 1px;
+	    margin: 0 0 10px;
+	    padding: 0;
+	}
+	.subscribe-email {
+	    display: block;
+	    border-radius: 6px;
+	    margin: 0 auto;
+	    position: relative;
+	}
+	#footer-social-links {
+		text-align: center;
+	}
+	.share-icons.clearfix {
+		float: none;
+	}
+	#subscribe-now {
+		margin-bottom: 5px;
+	}
+	#subscribe-now {
+	    float: left;
+	    text-align: center;
+	    width: 100%;	    
+	}
+	#social-section {
+	    float: left;
+	    text-align: center;
+	    width: 100%;
+	    margin-bottom: 25px;
+	}
+	#footer-area #top-footer {
+		padding: 30px 0 5px;
+		height: auto;
+	}
+	#bottom-footer .col-sm-6.col-md-6.col-xs-6 {
+	    padding-bottom: 15px;
+	    text-align: center;
+	    width: 100%;
+	}
+	#footer-menu {
+		text-align: center;
+	}
+	#bottom-footer {
+	    height: auto;
+	    line-height: normal;
+	    padding: 30px 0 10px;
+	}
+	#footer-menu.menu-container .menu li {
+		height: auto;
+		line-height: normal;
+	}
+	#testimonial-area .owl-prev {
+		left: 0;
+	}
+	#testimonial-area .owl-next {
+		right: -5px;
+	}	
+	.testimoial-img {
+	    display: block;
+	    float: none;
+	    margin-bottom: 25px;
+	    text-align: center;
+	    width: 100%;
+	}
+	#testimonial-area .testimonials-item {
+	    float: left;
+	    padding: 30px;
+	    text-align: center;
+	    width: 100%;
+	}
+	.customize-plan-steps {
+		padding: 45px 0;
+	}
+	.testimonial {
+    	padding: 40px 0 50px;
+	}
+	.viewplantabs > li {	    
+	    display: block;
+	    height: 43px;
+	    line-height: 43px;
+	    margin: 0 auto 15px;
+	    max-width: 300px;	    
+	}
+	.customize-plan-box,
+	.customize-plan-box input[type="range"] {
+		width: 90%;
+	}
+	.view-plan-header.text-center > p,
+	.testimonial-inner.text-center > p {
+		padding: 15px;
+	}
+	.customizetheplan-btn {	  
+	    font-size: 17px;	    
+	    height: 50px;
+	    letter-spacing: 2px;
+	    line-height: 50px;
+	}
+	.col-md-6.customize-box {
+		text-align: center;
+		padding-top: 0;
+	}
+	.customizetheplan::after {
+		content: none;
+	}
+	.customizetheplan-btn {
+    	margin-bottom: 50px;
+	}
+	.customizetheplan {
+	    font-size: 30px;
+	    padding: 0;
+	    line-height: 36px;
+	    margin-bottom: 30px;
+	}
+	#Cleaning {
+		padding: 60px 0;
+	}	
+	.customize-plan-box {	   
+	    display: block;
+	    float: none;	   
+	    margin: 0 auto 30px;	   
+	}
+	#view-paln .cleaning-box {
+	    display: block;
+	    margin: 0 auto 30px;
+	    max-width: 370px;
+	    width: 100%;
+	}
+	.customize-plan-box:last-child,
+	#view-paln .cleaning-box:last-child {
+    	margin: 0 auto;
+	}
+	.customizetabs > li {	  
+	    display: block;
+	    margin: 0 auto 25px;
+	    max-width: 300px;
+	}
+	.customizetabs > li::after {
+		background: none;
+	}
+	#customize-plan-tab {
+		padding: 0;
+	}
+	#wpcf7-f67-o2 .wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors,
+  	#wpcf7-f67-o2 div.wpcf7-mail-sent-ok {
+  		margin:0;
+  	}
+	#testimonial-area .testimonials-item {
+		padding: 0 40px;
+	}	
+	.how-it-works {
+		padding: 40px 0;
+	}
+	.how-it-works h2 {
+		margin-bottom: 5px;
+	}
+	#Cleaning .cleaning-box .clinical-simpton h3 {
+		font-size: 24px;
+		padding: 10px 0 5px;
+	}
+	.mean-container .mean-bar {
+		width: auto;   
+	    top: 30px;
+	    left: 40%;
+	}	
+	.slider-title {
+	    font-size: 28px;
+	    letter-spacing: 0;	   
+	}	
+	.slider_btn {
+		float: none;
+	    font-size: 14px;
+	    height: auto;
+	    letter-spacing: 2px;
+	    line-height: normal;
+	    padding: 16px 35px 14px;
+	    width: auto;
+	}
+	.container.wearestiffy_desc {
+	    padding: 5% 5% 0;	    
+	}
+	.cleaning-section li {	    
+	    width: auto;
+	}
+	.cleaning-section span img {
+    	max-width: 150px;
+	} 
+	.cleaning-section > ul {
+	    display: none;
+	}
+	#Cleaning .view-plan-btn {
+		width: 90%;
+    	margin-right:0px;
+		margin-bottom: 15px;
+	}
+	#view-paln .book-now-btn {
+    	width: 180px;
+	}
+	#Cleaning .book-now-btn {
+		width: 90%;
+	}
+	#wearestiffy,.main-content,
+	.customize-plan-steps {
+		height: auto;
+		background-size: cover;
+	}
+	.col-lg-3.col-sm-3.works-box {
+	    float: none;
+	    margin: 30px auto;
+	    max-width: 90%;
+	    width: auto;
+	}
+	#view-paln .cleaning-box {
+		width: auto;
+		max-width: 90%;
+	}
+	#wearestiffy {
+		height: auto;
+	}
+	.main-content {	   
+	    height: auto;
+	    padding: 15px 0 30px;
+	}
+	#Cleaning .cleaning-box:first-child {
+		margin: 0 auto 30px;
+	}
+	#Cleaning .cleaning-box {	   
+	    float: none;
+	    height: auto;
+	    margin: 0 auto;
+	    padding: 25px 35px;
+	    width: 90%;
+	    max-height: 100%;
+	}
+	#Cleaning {
+		background-size: cover;
+		height: auto;
+	}	
+	#footer-area #top-footer .share-text p {
+	    font-size: 16px;	    
+	    padding-bottom: 10px;
+	}
+}
+@media screen and (min-width : 310px) and (max-width : 360px) {	
+	.laundry.clearfix {
+	    margin: 0 auto;
+	    max-width: 280px;
+	}
+	#view-paln .cleaning-box {
+		max-width: 90%;	
+	}	
+	.cleaning-box .book-now-btn {
+    	width: 180px;
+	}	
+	#slider {
+    	padding-top: 35px;
+	} 
+	.slider-title {
+		font-size: 24px;
+		padding: 0;
+		letter-spacing: 1px;
+	}
+	#contact-us {
+		padding: 30px 15px;
+	}
+	#subscribe_popup {
+	    max-width: 96%;
+	    top: auto;
+	    padding: 0 40px;
+	    width: 100%;
+	}
+	.wearestiffy-title h2 {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+	.bottom-section {	    
+	    padding: 25px 10px 10px;
+	}
+	.bottom-section > p {	  
+	    letter-spacing: 0;
+	    line-height: 24px;
+	}
+	.bottom-section > h3 {
+	    font-size: 18px;
+	    font-weight: 400;
+	    margin: 0 0 7px;
+	}
+	.popup-subscribe #popupemail {
+	    font-size: 12px;
+	    margin-bottom: 10px;
+	    padding-left: 10px;
+	    width: 88%;
+	}
+	#popupsubscribe {
+	    display: block;
+	    margin: 0 auto;
+	    max-width: 100%;
+	    width: 88%;
+	}
+
+	#footer-social-links.social-links ul li {
+		margin: 0 10px;
+	}
+	#footer-social-links.social-links .list-none.clearfix {
+		width: 240px;
+	}
+	#subscribe-now {
+    	margin-bottom: 5px;
+	} 
+	.share-text {
+		text-align: center;
+		display: block;
+	}
+	#footer-social-links.social-links .list-none.clearfix {
+		top: 0;
+	}
+	#footer-area #top-footer .share-text p {
+		text-align: center;
+		margin-bottom: 0;
+	}
+}

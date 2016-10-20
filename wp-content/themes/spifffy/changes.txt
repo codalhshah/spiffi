@@ -1,0 +1,3 @@
+/plugins/taxonomy-images	taxonomy-images.php		#948
+
+/plugins/easy-author-image		easy-author-image.php		#59
