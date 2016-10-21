@@ -1,3 +1,4 @@
 wp-config.php
-nbproject
-/nbproject
+nbproject/
+/nbproject/
+nbproject/private/private.xml

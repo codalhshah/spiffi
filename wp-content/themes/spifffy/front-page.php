@@ -111,7 +111,7 @@
                 <div class="house-cleaning House clearfix">		  	
                     <?php echo get_post_field('post_content', 97); ?>  			    
                 </div>
-                <div class="cleaning-or-button text-center">
+                <div class="cleaning-or-button text-center hide">
                     <p>or</p>
                     <a href="#customize-plan-steps" class="book-now-btn">Customize Your Plan</a>
                 </div>
@@ -133,7 +133,7 @@
     <!-- Monday To Friday Section -->
 
     <!-- Customize Section Area -->
-    <section id="customize-plan-steps" class="customize-plan-steps">
+    <section id="customize-plan-steps" class="customize-plan-steps hide">
         <div class="container">
             <div class="customize-plan-inner">
                 <div class="view-plan-header text-center">
