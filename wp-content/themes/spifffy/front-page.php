@@ -253,7 +253,7 @@
                             </div>
                         </div>
                         <div class="col-xs-12 col-md-6">
-                            <label for="comment">Aditional Notes:</label>
+                            <label for="comment">Additional Notes:</label>
                             <textarea class="form-control" name="notes" rows="5" id="notes"></textarea>
                             <p><input type="submit" disabled value="Next" class="wpcf7-form-control wpcf7-submit book-now-btn disabled" id="like-us-submit"></p>
                         </div>
