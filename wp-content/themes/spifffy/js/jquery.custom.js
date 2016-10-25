@@ -92,7 +92,7 @@ jQuery(document).ready(function() {
 		jQuery(".hmbaths").val(0);
 		jQuery(".s1 .circle").addClass("active");
 		jQuery(".all-no").css("display","block");
-                
+                jQuery(".all-no:first").css("display","none");
 //		jQuery(".range-div").click(function(){
 //                    var incr=Number(steps)+1;
 //			jQuery(".all-no").css("display","block");
@@ -112,7 +112,7 @@ jQuery(document).ready(function() {
 		jQuery(".hmbeds").val(0);
 		jQuery(".l1 .circle1").addClass("active");
 		jQuery(".all-no1").css("display","block");
-                
+                jQuery(".all-no1:first").css("display","none");
 //		jQuery(".range-div1").click(function(){
 //			jQuery(".all-no1").css("display","block");
 //			jQuery(".circle1").css("display","none");
