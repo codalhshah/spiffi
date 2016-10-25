@@ -1,4 +1,4 @@
-jQuery('.cleaning-box .book-now-btn').click(function (e) {
+jQuery('.cleaning-box .book-now-btn').not('.linkedto').click(function (e) {
     e.preventDefault();
     //jQuery('#addonModal').modal('show');
     jQuery('#btn-no').attr('href', $(this).attr('href'));

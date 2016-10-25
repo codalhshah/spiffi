@@ -238,10 +238,6 @@
                                                             <input id="recurring_year" type="radio" name="subscription_period" value="year">&nbsp;
                                                             <label for="recurring_year" class="wpcf7-list-item-label">Yearly</label>
                                                         </span>
-                                                        <span class="wpcf7-list-item last">
-                                                            <input id="recurring_non" type="radio" name="subscription_period" value="non_recurring">&nbsp;
-                                                            <label for="recurring_non" class="wpcf7-list-item-label">Non recurring</label>
-                                                        </span>
                                                     </span>
                                                 </span>
                                             </p>

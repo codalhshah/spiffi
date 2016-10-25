@@ -78,9 +78,6 @@ $configuration = array(
 if(!empty($_SESSION['addons_checkout'])){
     $configuration['addons'] = $_SESSION['addons_checkout'];
 }
-echo '<pre>';
-print_r($configuration);
-echo '</pre>';die;
 
 try {
     $result = ChargeBee_Subscription::create($configuration);
