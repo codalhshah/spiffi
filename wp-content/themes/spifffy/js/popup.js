@@ -45,10 +45,20 @@ jQuery(".range-div1").click(function () {
 });
 jQuery(".all-no").click(function () {
     var no = jQuery(this).text();
-     $('#hmbaths').val(no);
+    $('#hmbaths').val(no);
 });
 
 jQuery(".all-no1").click(function () {
     var no = jQuery(this).text();
-     $('#hmbeds').val(no);
-});	
+    $('#hmbeds').val(no);
+});
+
+jQuery('#checkout-form').validate({
+    ignore: "hidden",
+    rules: {
+        email: {
+            required: true,
+            email: true
+        }
+    }
+});

@@ -485,13 +485,14 @@ function spiffy_all_scriptsandstyles() {
     wp_register_script ('bootstrap', get_stylesheet_directory_uri() . '/js/bootstrap.min.js', array(),'1',false);
     wp_enqueue_script('bootstrap');
     
+    wp_register_script ('validate', get_stylesheet_directory_uri() .'/js/jquery.validate.min.js', array( 'jquery' ),'1',false);
+    wp_enqueue_script('validate');
+        
+    wp_register_script ('validate_additional', get_stylesheet_directory_uri() .'/js/additional-methods.min.js', array(),'1',false);
+    wp_enqueue_script('validate_additional');
     
     if(is_page('checkout')){
-        wp_register_script ('validate', get_stylesheet_directory_uri() .'/js/jquery.validate.min.js', array( 'jquery' ),'1',false);
-        wp_enqueue_script('validate');
         
-        wp_register_script ('validate_additional', get_stylesheet_directory_uri() .'/js/additional-methods.min.js', array(),'1',false);
-        wp_enqueue_script('validate_additional');
 
         wp_register_script ('payment', get_stylesheet_directory_uri() .'/js/jquery.payment.min.js', array( 'jquery' ),'1',false);
         wp_enqueue_script('payment');

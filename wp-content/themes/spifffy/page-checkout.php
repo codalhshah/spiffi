@@ -250,12 +250,12 @@ function prepareAddonHtml($addons_data){
                                             
                                                 $addons_data = getAddonsdata($plan_id, $subscription_period, $total_addon_bath, $total_addon_beds, 'y');
                                                 $addons_html = prepareAddonHtml($addons_data);
-                                            
+                                                $email = isset($_GET['email'])?$_GET['email']:'';
         
                                             $original_content = get_the_content();
-                                            $finds = array('{{item_name}}', '{{item_price}}', '{{addons}}', '{{item_price_total}}');
+                                            $finds = array('{{item_name}}', '{{item_price}}', '{{addons}}', '{{item_price_total}}', '{{email}}');
                                             $replacement = array();
-                                            $relace = array($product, $amount, $addons_html, $total_amount);
+                                            $relace = array($product, $amount, $addons_html, $total_amount, $email);
                                             $contemnt = str_replace($finds, $relace, $original_content);
                                             echo $contemnt;
                                             ?>
