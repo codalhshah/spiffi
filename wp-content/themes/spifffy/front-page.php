@@ -144,46 +144,46 @@
                         <div class="col-lg-6 col-md-6 customize-plan-box">
                             <p><?php _e('How many beds ?', 'spiffi'); ?></p>
                             <div class="customize-plan-range">
-                                <?php
+                                <?php 
                                 $count = 7;
-                                for ($i = 1; $i < $count; $i++) {
+                                for ($i=1; $i < $count ; $i++) {
                                     ?>
-                                    <div class="range-div1 <?php echo "l" . $i; ?>" step-tag1="<?php echo $i; ?>"><span class="circle1"></span></div>
+                                    <div class="range-div1 <?php echo "l".$i; ?>" step-tag1="<?php echo $i;?>"><span class="circle1"></span></div>
                                     <?php
                                 }
                                 ?>
-                                <ul>
-                                    <?php
-                                    $count = 7;
-                                    for ($i = 1; $i < $count; $i++) {
-                                        ?>
-                                        <li><a hre="#" class="all-no1 <?php echo "Nb" . ($i - 1); ?>"><?php echo ($i - 1); ?></a></li>
-                                        <?php
-                                    }
+                            <ul>
+                                <?php 
+                                $count = 7;
+                                for ($i=1; $i < $count ; $i++) {
                                     ?>
+                                    <li><a hre="#" class="all-no1 <?php echo "Nb".$i;?>"><?php echo $i; ?></a></li>
+                                    <?php
+                                }
+                                ?>
                                 </ul>
                             </div>	    	
                         </div>
                         <div class="col-lg-6 col-md-6 customize-plan-box">
                             <p><?php _e('How many baths ?', 'spiffi'); ?></p>
                             <div class="customize-plan-range">
-                                <?php
+                                <?php 
                                 $count = 7;
-                                for ($i = 1; $i < $count; $i++) {
+                                for ($i=1; $i < $count ; $i++) {
                                     ?>
-                                    <div class="range-div <?php echo "s" . $i; ?>" step-tag="<?php echo $i; ?>"><span class="circle"></span></div>
+                                    <div class="range-div <?php echo "s".$i; ?>" step-tag="<?php echo $i;?>"><span class="circle"></span></div>
                                     <?php
                                 }
                                 ?>
-                                <ul>
-                                    <?php
-                                    $count = 7;
-                                    for ($i = 1; $i < $count; $i++) {
-                                        ?>
-                                        <li><a hre="#" class="all-no <?php echo "N" . ($i - 1); ?>"><?php echo ($i - 1); ?></a></li>
-                                        <?php
-                                    }
+                            <ul>
+                                <?php 
+                                $count = 7;
+                                for ($i=1; $i < $count ; $i++) {
                                     ?>
+                                    <li><a hre="#" class="all-no <?php echo "N".$i;?>"><?php echo $i; ?></a></li>
+                                    <?php
+                                }
+                                ?>
                                 </ul>
                             </div>
                         </div>
@@ -214,8 +214,8 @@
                                         
 
                                             <div style="display:none;">
-                                                <input type="hidden" id="hmbaths" name="hmbaths" value="0" class="">
-                                                <input type="hidden" id="hmbeds" name="hmbeds" value="0" class="">
+                                                <input type="hidden" id="hmbaths" name="hmbaths" value="1" class="">
+                                                <input type="hidden" id="hmbeds" name="hmbeds" value="1" class="">
                                                 <input type="hidden" name="plan" value="" class="">
                                                 <input type="hidden" name="start_date" id="start_date" value="<?php echo time(); ?>" class="">
                                             </div>

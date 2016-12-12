@@ -88,11 +88,11 @@ jQuery(document).ready(function() {
 	});
 
 		jQuery(".circle").css("display","none");
-		jQuery(".s1 .circle").css("display","block").text(0);
-		jQuery(".hmbaths").val(0);
+		jQuery(".s1 .circle").css("display","block").text(1);
+		jQuery(".hmbaths").val(1);
 		jQuery(".s1 .circle").addClass("active");
 		jQuery(".all-no").css("display","block");
-                jQuery(".all-no:first").css("display","none");
+        jQuery(".all-no:first").css("display","none");
 //		jQuery(".range-div").click(function(){
 //                    var incr=Number(steps)+1;
 //			jQuery(".all-no").css("display","block");
@@ -108,8 +108,8 @@ jQuery(document).ready(function() {
 //		});
 
 		jQuery(".circle1").css("display","none");
-		jQuery(".l1 .circle1").css("display","block").text(0);
-		jQuery(".hmbeds").val(0);
+		jQuery(".l1 .circle1").css("display","block").text(1);
+		jQuery(".hmbeds").val(1);
 		jQuery(".l1 .circle1").addClass("active");
 		jQuery(".all-no1").css("display","block");
                 jQuery(".all-no1:first").css("display","none");
@@ -127,7 +127,7 @@ jQuery(document).ready(function() {
 //		});
 		jQuery(".all-no").click(function(){			
 			var no = jQuery(this).text();
-                        var incr = Number(no)+1;
+            var incr = Number(no);
 			jQuery(".all-no").css("display","block");
 			jQuery(".circle").css("display","none");
 			jQuery(".N"+no).css("display","none");
@@ -138,7 +138,7 @@ jQuery(document).ready(function() {
 
 		jQuery(".all-no1").click(function(){
 			var no = jQuery(this).text();
-                        var incr = Number(no)+1;
+                        var incr = Number(no);
 			jQuery(".all-no1").css("display","block");
 			jQuery(".circle1").css("display","none");
 			jQuery(".Nb"+no).css("display","none");

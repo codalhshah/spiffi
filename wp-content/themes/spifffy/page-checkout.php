@@ -23,10 +23,10 @@ if(!in_array($plan_id, range(1,4))){
   get_template_part( 404 ); exit();
 }
 if (isset($_GET['hmbaths'])) {
-    $total_addon_bath = $_GET['hmbaths'];
-    $total_addon_beds = $_GET['hmbeds'];
-    $subscription_period = $_GET['subscription_period'];
-    $additional_notes = $_GET['notes'];
+    $total_addon_bath = $_GET['hmbaths'] - 1;
+    $total_addon_beds = $_GET['hmbeds'] - 1;
+    $subscription_period = $_GET['subscription_period'] -1;
+    $additional_notes = $_GET['notes'] -1;
 }
 
 
