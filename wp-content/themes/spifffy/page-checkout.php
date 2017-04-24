@@ -25,8 +25,8 @@ if(!in_array($plan_id, range(1,4))){
 if (isset($_GET['hmbaths'])) {
     $total_addon_bath = $_GET['hmbaths'] - 1;
     $total_addon_beds = $_GET['hmbeds'] - 1;
-    $subscription_period = $_GET['subscription_period'] -1;
-    $additional_notes = $_GET['notes'] -1;
+    $subscription_period = $_GET['subscription_period'];
+    $additional_notes = $_GET['notes'];
 }
 
 
@@ -40,17 +40,17 @@ if (isset($plan_id) && $plan_id != '') {
             break;
         case '2':
             $product = 'Daily (M-F)';
-            $amount = 125;
+            $amount = 25;
             $id = 'daily-(5-days)';
             break;
         case '3':
             $product = 'Mon, Wed, Fri (3X A WEEK)';
-            $amount = 90;
+            $amount = 30;
             $id = 'daily-(MWF)';
             break;
         case '4':
             $product = 'Tues, Thurs (2X A WEEK)';
-            $amount = 70;
+            $amount = 35;
             $id = 'daily-(trth)';
             break;
         default:
@@ -132,6 +132,7 @@ function getAddonsdata($plan_id, $subscription_period, $total_addon_bath, $total
     try{
         /*calculation of bed price*/
         $result_bed = ChargeBee_Addon::retrieve($addon_id_bed);
+
         $price_bed = $result_bed->addon()->price/100;
         $addon_bed_price = $price_bed*$total_addon_beds;
     }catch(Exception $e){
@@ -251,6 +252,11 @@ function prepareAddonHtml($addons_data){
                                                 $addons_data = getAddonsdata($plan_id, $subscription_period, $total_addon_bath, $total_addon_beds, 'y');
                                                 $addons_html = prepareAddonHtml($addons_data);
                                                 $email = isset($_GET['email'])?$_GET['email']:'';
+
+
+                                                $_SESSION['addons_html'] = $addons_html; 
+                                                $_SESSION['amount'] = $amount; 
+                                                $_SESSION['total_amount'] = $total_amount; 
         
                                             $original_content = get_the_content();
                                             $finds = array('{{item_name}}', '{{item_price}}', '{{addons}}', '{{item_price_total}}', '{{email}}');

@@ -6,7 +6,7 @@ if(empty($_POST)){
     die('invalid request.');
 }
 define('CHARGEBEE_BASE', __DIR__.DIRECTORY_SEPARATOR.'chargebee-php-master'.DIRECTORY_SEPARATOR.'lib'.DIRECTORY_SEPARATOR);
-define('ENVIRONMENT', 'DEVELOPMENT');
+define('ENVIRONMENT', 'PRODUCTION');
 if(ENVIRONMENT == 'DEVELOPMENT'){
     define('KEY', 'test_ZkVQAiR0kv93qwaowWWLmdHbPcux0spod');
     define('SITE', 'getspiffi-test');
@@ -116,9 +116,8 @@ try {
           
           $mail = new PHPMailer;
           $mail->setFrom('info@spiffi.biz', 'Spiffi');
-          //$mail->addAddress('mkothari@ecodirectcleaners.com', 'M Kothari');     // Add a recipient
-          //$mail->addAddress('info@spiffi.biz');
-          $mail->addAddress('hshah@codal.com');
+          $mail->addAddress('mkothari@ecodirectcleaners.com', 'M Kothari');     // Add a recipient
+          $mail->addAddress('info@spiffi.biz');
           $mail->isHTML(true); // Set email format to HTML
           $mail->Subject = 'New order Spiffi';
           $mail->Body    = $html;
